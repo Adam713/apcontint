@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/edit_cus_interface" android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+        <ImageView android:gravity="center_horizontal" android:id="@id/img" android:padding="3.0dip" android:clickable="false" android:duplicateParentState="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/up" android:layout_weight="1.0" android:layout_toLeftOf="@id/balance" />
+        <TextView android:id="@id/bal_type" android:visibility="invisible" android:layout_width="5.0dip" android:layout_height="5.0dip" android:text=" TYPE_" />
+        <TextView android:textStyle="bold" android:gravity="center" android:id="@id/balance" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Balance" android:layout_weight="2.0" />
+        <TextView android:id="@id/cus_id" android:visibility="invisible" android:layout_width="5.0dip" android:layout_height="5.0dip" android:text=" TYPE_" />
+        <TextView android:id="@id/cus_phone" android:visibility="invisible" android:layout_width="5.0dip" android:layout_height="5.0dip" android:text=" TYPE_" />
+        <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/count" android:background="@drawable/my_circle" android:layout_width="wrap_content" android:layout_height="20.0dip" android:text="123" />
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:gravity="center" android:id="@id/customer_name" android:paddingLeft="1.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/cus_name" android:layout_weight="3.0" />
+        <ImageView android:gravity="center_horizontal" android:id="@id/img_add" android:clickable="false" android:duplicateParentState="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/add" android:layout_weight="1.0" android:layout_toLeftOf="@id/balance" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CountryCodes" />
+    <style name="blankLines" />
+    <style name="blankLinesValues" />
+    <style name="edit_image" />
+    <style name="icons" />
+    <style name="icons3" />
+    <style name="icons4" />
+    <style name="icons5" />
+    <style name="icons6" />
+    <style name="icons6_" />
+    <style name="lang_list" />
+    <style name="lang_list_Values" />
+    <style name="pref_example_list_titles" />
+    <style name="pref_example_list_values" />
+    <style name="pref_sync_frequency_titles" />
+    <style name="pref_sync_frequency_values" />
+    <style name="select_image" />
+    <style name="titles" />
+    <style name="titles3" />
+    <style name="titles4" />
+    <style name="titles5" />
+    <style name="titles6" />
+    <style name="titles6_" />
+</resources>

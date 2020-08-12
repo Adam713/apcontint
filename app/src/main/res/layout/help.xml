@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:layout_gravity="end" android:focusableInTouchMode="false" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.AppBarLayout android:theme="@style/AppTheme.AppBarOverlay" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/toolbar2" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:popupTheme="@style/AppTheme.PopupOverlay" />
+    </android.support.design.widget.AppBarLayout>
+    <LinearLayout android:gravity="end" android:orientation="vertical" android:id="@id/edit_cus_interface" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/searchButton" android:layout_alignParentRight="true">
+        <WebView android:id="@id/activity_main_webview" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <android.support.design.widget.FloatingActionButton android:layout_gravity="end|center|top" android:id="@id/fab" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@android:drawable/ic_menu_sort_alphabetically" app:backgroundTint="@color/colorPrimary" app:fabSize="mini" />
+</android.support.design.widget.CoordinatorLayout>

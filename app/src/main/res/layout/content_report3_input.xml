@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/edit_cus_interface" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true">
+        <LinearLayout android:orientation="horizontal" android:id="@id/edit_cus_interface3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+            <TextView android:gravity="center" android:layout_gravity="end" android:id="@id/edit_tr_date" android:layout_width="0.0dip" android:layout_height="35.0dip" android:hint="@string/tr_date" android:editable="false" android:layout_weight="2.0" android:inputType="date" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/edit_cus_interface4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+            <Button android:layout_gravity="start" android:id="@id/btn_cus_det_edit" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/btn_search" android:layout_weight="2.0" android:layout_below="@id/btn_search" android:layout_alignParentLeft="true" android:onClick="btn_date_search" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/edit_cus_interface5" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ListView android:id="@id/list_cus_date" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:layout_below="@id/edit_cus_interface4" />
+            <View android:id="@id/primerdivisor2" android:background="@android:color/darker_gray" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_below="@id/list_cus_date" />
+            <TextView android:textSize="18.0sp" android:textColor="#ff536fd2" android:textColorHighlight="#ffffffff" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/emptyResults" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/empty_list" android:layout_below="@id/primerdivisor2" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

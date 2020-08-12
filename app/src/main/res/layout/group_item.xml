@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="5.0dip" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="100.0" android:layout_alignParentRight="true">
+        <TextView android:textSize="18.0dip" android:textColor="#ff000000" android:gravity="center" android:id="@id/g_cnt" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/cus_cnt" android:layout_weight="50.0" />
+        <TextView android:textSize="18.0dip" android:textColor="#ff000000" android:gravity="center" android:id="@id/g_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/cus_group" android:layout_weight="50.0" />
+    </LinearLayout>
+</LinearLayout>

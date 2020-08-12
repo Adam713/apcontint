@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_gravity="end" android:focusableInTouchMode="false" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/AppTheme.AppBarOverlay" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/toolbar2" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:popupTheme="@style/AppTheme.PopupOverlay" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <RelativeLayout android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_behavior="@string/appbar_scrolling_view_behavior"
+      >
+        <include layout="@layout/content_customer_main" />
+    </RelativeLayout>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_gravity="end|bottom|center" android:id="@id/fab2" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@android:drawable/ic_input_add" app:backgroundTint="@color/colorPrimary" app:fabSize="normal" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

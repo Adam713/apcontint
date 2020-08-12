@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/edit_cus_interface" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <LinearLayout android:orientation="horizontal" android:id="@id/edit_cus_interface1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="10.0" android:layout_centerHorizontal="true">
+            <ImageView android:textSize="16.0dip" android:textStyle="bold" android:textColor="@android:color/white" android:layout_gravity="center" android:id="@id/btn_calc" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/calculator" android:text="@string/btn_calc" android:layout_weight="1.0" android:onClick="calc_pick_btn" />
+            <EditText android:gravity="center_horizontal" android:id="@id/edit_tr_amount" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="@string/tr_amount" android:singleLine="true" android:layout_weight="3.0" android:inputType="numberDecimal" />
+            <AutoCompleteTextView android:gravity="center_horizontal" android:id="@id/cus_name_det" android:nextFocusLeft="@id/edit_tr_amount" android:nextFocusRight="@id/edit_tr_amount" android:nextFocusUp="@id/edit_tr_amount" android:nextFocusDown="@id/edit_tr_amount" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="@string/cus_name" android:singleLine="true" android:layout_weight="6.0" android:imeOptions="actionNext" android:nextFocusForward="@id/edit_tr_amount">
+                <requestFocus />
+            </AutoCompleteTextView>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/edit_cus_interface2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="10.0" android:layout_centerHorizontal="true">
+            <TextView android:textStyle="bold" android:gravity="center" android:layout_gravity="end" android:id="@id/edit_tr_date" android:clickable="true" android:layout_width="0.0dip" android:layout_height="35.0dip" android:hint="@string/tr_date" android:editable="false" android:layout_weight="3.0" android:inputType="date" />
+            <RadioGroup android:gravity="center" android:layout_gravity="end" android:orientation="horizontal" android:id="@id/radiogroup1" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="7.0">
+                <RadioButton android:id="@id/radiobutton1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/radio1" />
+                <RadioButton android:id="@id/radiobutton2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/radio2" />
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/edit_cus_interface3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="10.0" android:layout_centerHorizontal="true">
+            <Button android:textSize="16.0dip" android:textStyle="bold" android:textColor="@android:color/white" android:layout_gravity="start" android:id="@id/btn_cus_det_edit" android:background="@drawable/my_border" android:layout_width="0.0dip" android:layout_height="30.0dip" android:text="@string/btn_add" android:layout_weight="2.0" android:layout_below="@id/edit_cus_gsm" android:layout_alignParentLeft="true" android:onClick="btn_cus_save" />
+            <AutoCompleteTextView android:gravity="center_horizontal" android:layout_gravity="end" android:id="@id/edit_tr_remarks" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="@string/tr_remarks" android:singleLine="true" android:layout_weight="8.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/edit_cus_interface4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="10.0" android:layout_centerHorizontal="true">
+            <TextView android:textStyle="bold" android:gravity="center" android:layout_gravity="end" android:id="@id/edit_tr_date4" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:hint="@string/tr_date" android:editable="false" android:layout_weight="3.0" android:inputType="date" />
+            <AutoCompleteTextView android:gravity="center_horizontal" android:layout_gravity="end" android:id="@id/edit_tr_remarks4" android:layout_width="0.0dip" android:layout_height="fill_parent" android:hint="@string/tr_remarks" android:singleLine="true" android:layout_weight="7.0" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/edit_cus_interface5" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="10.0" android:layout_centerHorizontal="true">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/edit_cus_interface5_1" android:paddingLeft="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="4.0" android:layout_centerHorizontal="true">
+                <Button android:textSize="16.0dip" android:textStyle="bold" android:textColor="@android:color/white" android:id="@id/btn_cus_det_add1" android:background="@drawable/my_border" android:paddingLeft="5.0dip" android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="@string/radio1" android:drawableLeft="@drawable/up" android:layout_below="@id/edit_cus_gsm" android:onClick="btn_cus_add" android:drawableStart="@drawable/up" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/edit_cus_interface5_2" android:paddingLeft="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="4.0" android:layout_centerHorizontal="true">
+                <Button android:textSize="16.0dip" android:textStyle="bold" android:textColor="@android:color/white" android:id="@id/btn_cus_det_add2" android:background="@drawable/my_border" android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="@string/radio2" android:drawableLeft="@drawable/down" android:layout_below="@id/edit_cus_gsm" android:onClick="btn_cus_add" android:drawableStart="@drawable/down" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <ListView android:id="@id/list_cus_det_edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawSelectorOnTop="false" android:layout_below="@id/edit_cus_interface" />
+    <TextView android:textSize="18.0sp" android:textColor="#ff536fd2" android:textColorHighlight="#ffffffff" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/emptyResults" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/empty_list" android:layout_below="@id/list_cus_det_edit" />
+</RelativeLayout>

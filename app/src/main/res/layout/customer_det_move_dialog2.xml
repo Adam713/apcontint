@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/edit_cus_interface" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <View android:id="@id/primerdivisor1" android:background="@android:color/darker_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/edit_cus_interface_from" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="10.0" android:layout_centerHorizontal="true">
+            <AutoCompleteTextView android:gravity="center_horizontal" android:id="@id/from_cus_name" android:nextFocusLeft="@id/to_cus_name" android:nextFocusRight="@id/to_cus_name" android:nextFocusUp="@id/to_cus_name" android:nextFocusDown="@id/to_cus_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="@string/from_cus_name" android:singleLine="true" android:drawableLeft="@android:drawable/ic_notification_clear_all" android:layout_weight="10.0" android:imeOptions="actionNext" android:nextFocusForward="@id/to_cus_name" android:drawableStart="@android:drawable/ic_notification_clear_all">
+                <requestFocus />
+            </AutoCompleteTextView>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/edit_cus_interface_to" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="10.0" android:layout_centerHorizontal="true">
+            <AutoCompleteTextView android:gravity="center_horizontal" android:id="@id/to_cus_name" android:nextFocusLeft="@id/edit_tr_amount" android:nextFocusRight="@id/edit_tr_amount" android:nextFocusUp="@id/edit_tr_amount" android:nextFocusDown="@id/edit_tr_amount" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="@string/to_cus_name" android:singleLine="true" android:layout_weight="10.0" android:imeOptions="actionNext" android:nextFocusForward="@id/edit_tr_amount">
+                <requestFocus />
+            </AutoCompleteTextView>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/edit_cus_interface1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="10.0" android:layout_centerHorizontal="true">
+            <TextView android:textStyle="bold" android:gravity="center" android:id="@id/edit_tr_date" android:clickable="true" android:layout_width="0.0dip" android:layout_height="35.0dip" android:hint="@string/tr_date" android:editable="false" android:layout_weight="4.0" android:inputType="date" />
+            <ImageView android:textSize="16.0dip" android:textStyle="bold" android:textColor="@android:color/white" android:layout_gravity="center" android:id="@id/btn_calc" android:paddingRight="5.0dip" android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@drawable/calculator" android:text="@string/btn_calc" />
+            <EditText android:gravity="center_horizontal" android:id="@id/edit_tr_amount" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="@string/tr_amount" android:singleLine="true" android:layout_weight="6.0" android:inputType="numberDecimal" />
+        </LinearLayout>
+        <HorizontalScrollView android:gravity="center_horizontal" android:scrollbars="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/edit_cus_interface4" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </HorizontalScrollView>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/edit_cus_interface2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="10.0">
+            <ImageView android:textSize="16.0dip" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="start|center" android:id="@id/btn_attach" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/camera" />
+            <AutoCompleteTextView android:gravity="center_horizontal" android:layout_gravity="end" android:id="@id/edit_tr_remarks" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="@string/tr_remarks" android:singleLine="true" android:completionThreshold="1" android:layout_weight="10.0" />
+        </LinearLayout>
+        <HorizontalScrollView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/horiz_curr_list" android:scrollbars="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/edit_cus_interface_curr" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RadioGroup android:gravity="end" android:layout_gravity="end" android:orientation="horizontal" android:id="@id/radiogroup_curr" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            </LinearLayout>
+        </HorizontalScrollView>
+        <LinearLayout android:gravity="center|top" android:orientation="horizontal" android:id="@id/edit_cus_interface_tmp" android:padding="1.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="10.0" android:layout_centerHorizontal="true">
+            <Button android:textSize="16.0dip" android:textStyle="bold" android:textColor="@android:color/white" android:layout_gravity="center" android:id="@id/btn_cus_det_edit" android:background="@drawable/my_border" android:layout_width="0.0dip" android:layout_height="30.0dip" android:text="@string/btn_save" android:layout_weight="3.0" android:layout_below="@id/edit_cus_gsm" android:layout_alignParentLeft="true" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center|top" android:orientation="horizontal" android:id="@id/edit_cus_interface3" android:paddingBottom="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="10.0" android:layout_centerHorizontal="true">
+            <Button android:textSize="16.0dip" android:textStyle="bold" android:textColor="@android:color/white" android:layout_gravity="center" android:id="@id/btn_cus_det_edit_tmp" android:background="@drawable/my_border" android:layout_width="0.0dip" android:layout_height="30.0dip" android:text="@string/btn_save" android:layout_weight="3.0" android:layout_below="@id/edit_cus_gsm" android:layout_alignParentLeft="true" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

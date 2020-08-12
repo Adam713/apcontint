@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_font_family_body_1_material">sans-serif</string>
+    <string name="abc_font_family_body_2_material">sans-serif-medium</string>
+    <string name="abc_font_family_button_material">sans-serif-medium</string>
+    <string name="abc_font_family_caption_material">sans-serif</string>
+    <string name="abc_font_family_display_1_material">sans-serif</string>
+    <string name="abc_font_family_display_2_material">sans-serif</string>
+    <string name="abc_font_family_display_3_material">sans-serif</string>
+    <string name="abc_font_family_display_4_material">sans-serif-light</string>
+    <string name="abc_font_family_headline_material">sans-serif</string>
+    <string name="abc_font_family_menu_material">sans-serif</string>
+    <string name="abc_font_family_subhead_material">sans-serif</string>
+    <string name="abc_font_family_title_material">sans-serif-medium</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">space</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="account_print_remarks" />
+    <string name="action_contact">للتــواصـل والـدعـم</string>
+    <string name="action_export">حفـظ نسخة إحتياطية</string>
+    <string name="action_finish">إنهـــاء</string>
+    <string name="action_import">إسترجاع قاعدة البيانات</string>
+    <string name="action_move_tr">تحويل من حساب إلى حساب</string>
+    <string name="action_next">التـــالي</string>
+    <string name="action_previous">الســابق</string>
+    <string name="action_print">طبــاعة</string>
+    <string name="action_report_groups">إجمالي التصنيفات</string>
+    <string name="action_setting_about">حــول البـرنـامج</string>
+    <string name="action_settings">خــروج</string>
+    <string name="action_settings1">المبالغ شهرياً</string>
+    <string name="action_settings2">إجمالي المبالغ</string>
+    <string name="action_settings3">تفاصيل المبالغ</string>
+    <string name="action_settings4">إضافة زبــون</string>
+    <string name="action_settings5">إضافة مبـلغ</string>
+    <string name="action_settings6">مشـــاركة</string>
+    <string name="action_settings7">إرســال رسالة نصية</string>
+    <string name="action_settings8">إغــلاق الـرصيـد</string>
+    <string name="action_sign_in">دخـــول</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_swap">تبديل</string>
+    <string name="activate">تفعيـل</string>
+    <string name="activated">تم تفعيله سابقا</string>
+    <string name="activation_register_finish">تم تسجيل طلبك..سيتم التواصل معك لاحقا</string>
+    <string name="activation_reply">تم تسجيل طلبك بنجاح..سيتم التواصل معك في أقرب وقت...شكرا لتفهمك</string>
+    <string name="activation_request">طلب رمز التفعيل</string>
+    <string name="activation_request_msg">طلب رمز التفعيل</string>
+    <string name="activiation_register">تسجيل طلب تفعيل البرنامج</string>
+    <string name="activity_home_note">إغلق ثم افتح مرة أخرى</string>
+    <string name="ad_interst_id">ca-app-pub-4681893199239723/5962858696</string>
+    <string name="add_curr">إضافة عملة</string>
+    <string name="add_group">إضافة تصنيف</string>
+    <string name="add_transaction">إضافة مبلغ</string>
+    <string name="adv_search">بحث متقدم</string>
+    <string name="alert_cancel">إلغاء</string>
+    <string name="alert_choose_filename">فضلا...قم باختيار الملف ثم اضغط موافق</string>
+    <string name="alert_choose_folder">فضلا...قم باختيار المجلد ثم اضغط موافق</string>
+    <string name="alert_file_save_as">حفظ الملف في</string>
+    <string name="alert_ok">موافق</string>
+    <string name="alert_supply_filename">فضلا..إكتب إسم الملف ثم اضغط موافق</string>
+    <string name="app_id">ca-app-pub-4681893199239723~6581051891</string>
+    <string name="app_name">دفتر الحسابات</string>
+    <string name="app_name_print">برنامج دفتر الحسابات</string>
+    <string name="app_path">قم بتغيير مجلد البيانات من اعدادات البرنامج...</string>
+    <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="auto_backup_notify">تم حفظ نسخة احتياطية</string>
+    <string name="backup_done">تم أخذ نسخة إحتياطية بنجاح</string>
+    <string name="backup_folder">تم حفظ الملف في المجلد</string>
+    <string name="backup_info">لذا يجب عليك نسخ هذا المجلد باستمرار إلى ذاكرة خارجية أو الى حسابك بالانترنت.</string>
+    <string name="banner_ad_unit_id">ca-app-pub-4681893199239723/8057785095</string>
+    <string name="bk_color">\#335ab8</string>
+    <string name="bk_name">اسم النسخة</string>
+    <string name="bk_select_color">\#A8CEF4</string>
+    <string name="bottom_sheet_behavior">android.support.design.widget.BottomSheetBehavior</string>
+    <string name="btn_add">إضافة</string>
+    <string name="btn_calc">=</string>
+    <string name="btn_calc2">Σ</string>
+    <string name="btn_cancel">إلغـاء</string>
+    <string name="btn_change_pw">تغيير كلمة السر</string>
+    <string name="btn_save">حفـــظ</string>
+    <string name="btn_search">بـحث</string>
+    <string name="change_class">تغيير التصنيف</string>
+    <string name="change_curr">تغيير العملة</string>
+    <string name="change_email">تغيير الحساب</string>
+    <string name="character_counter_content_description">Character limit exceeded %1$d of %2$d</string>
+    <string name="character_counter_pattern">%1$d / %2$d</string>
+    <string name="close_bal_remarks">رصيد إفتتاحي</string>
+    <string name="close_balance">سيتم حذف جميع تفاصيل المبالغ الخاصة بهذا الحساب ؟</string>
+    <string name="common_google_play_services_enable_button">Enable</string>
+    <string name="common_google_play_services_enable_text">"%1$s won't work unless you enable Google Play services."</string>
+    <string name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string name="common_google_play_services_install_button">Install</string>
+    <string name="common_google_play_services_install_text">"%1$s won't run without Google Play services, which are missing from your device."</string>
+    <string name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_unknown_issue">%1$s is having trouble with Google Play services. Please try again.</string>
+    <string name="common_google_play_services_unsupported_text">"%1$s won't run without Google Play services, which are not supported by your device."</string>
+    <string name="common_google_play_services_update_button">Update</string>
+    <string name="common_google_play_services_update_text">"%1$s won't run unless you update Google Play services."</string>
+    <string name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_google_play_services_updating_text">"%1$s won't run without Google Play services, which are currently updating."</string>
+    <string name="common_google_play_services_wear_update_text">New version of Google Play services needed. It will update itself shortly.</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="confirm_close">إغــــلاق</string>
+    <string name="confirm_hide">وقف التنبيه</string>
+    <string name="confirm_no">لا</string>
+    <string name="confirm_yes">نعم</string>
+    <string name="contact_hdr">للتـواصـل والـدعـم</string>
+    <string name="contact_msg">"
+ التلفون/واتساب : - 
+ +967777269411 
+ +967770203819 
+ واتساب فقط : - 
+ +201118847953 
+
+ - البـريد الإلكتـروني : 
+ engmogh@gmail.com 
+"</string>
+    <string name="contact_msg2">" يمكنك شراء النسخة الكاملة 
+ "<b><a href="https://play.google.com/store/apps/details?id=com.valdio.valdioveliu.daftar">دفتر الحسابات Pro</a></b>" "</string>
+    <string name="contact_msg3">"في حال لاتوجد لديك بطاقة الشراء عبر الإنترنت 
+ يمكنك الحصول على رمز التفعيل بالتواصل على : 
+ +967777269411 
+ +967770203819 
+ واتس اب فقط : - 
+ +201118847953"</string>
+    <string name="credit">لك</string>
+    <string name="credit2">عليه</string>
+    <string name="credit_hdr">لـه</string>
+    <string name="credit_sms">دفعة</string>
+    <string name="csv">CSV</string>
+    <string name="curr_option">يمنكك إظهار العملات من اعدادات البرنامج ..خيارات اخرى</string>
+    <string name="currency">العملة</string>
+    <string name="cus_cnt">عدد الحسابات</string>
+    <string name="cus_country">الدولـة</string>
+    <string name="cus_det_title">كشف حساب#</string>
+    <string name="cus_email">البريد الالكتروني</string>
+    <string name="cus_group">التصنيف</string>
+    <string name="cus_name">الإســــم</string>
+    <string name="cus_phone">التلفون</string>
+    <string name="cus_reply">إضافة رد</string>
+    <string name="cus_tr_notify_title">إشعار من</string>
+    <string name="customer_edit">تعديل البيانات</string>
+    <string name="day">يوم</string>
+    <string name="debit">عليك</string>
+    <string name="debit2">له</string>
+    <string name="debit_hdr">عليـه</string>
+    <string name="debit_sms">سحب</string>
+    <string name="default_pref_email">\@gmail.com</string>
+    <string name="default_web_client_id">91144544143-mq41d1dc1n67q1ce3o9el14a1rk8scec.apps.googleusercontent.com</string>
+    <string name="delete_msg">هل تريد الحذف؟</string>
+    <string name="delete_msg_cus">سيتم حذف جميع المبالغ المرتبطة بهذا الحساب...هل تريد الحذف؟</string>
+    <string name="done">تمت العملية بنجاح</string>
+    <string name="drive_confirm">هل تريد حفظ نسخة احتياطية على جوجل درايف؟</string>
+    <string name="edit_transaction">تعديل</string>
+    <string name="empty_list">لا توجد نتائج</string>
+    <string name="error">فشلت العملية</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">كلمة السر غير صحيحة</string>
+    <string name="excel">إكسـل</string>
+    <string name="f_date_hdr">مـن تـــاريــخ</string>
+    <string name="fab_transformation_scrim_behavior">android.support.design.transformation.FabTransformationScrimBehavior</string>
+    <string name="fab_transformation_sheet_behavior">android.support.design.transformation.FabTransformationSheetBehavior</string>
+    <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
+    <string name="file">الملف</string>
+    <string name="file_extension_xml">.db</string>
+    <string name="finger_login_err">لم يتم التأكد من البصمة</string>
+    <string name="finger_login_succ">البصمة صحيحة</string>
+    <string name="firebase_database_url">https://dafar-app.firebaseio.com</string>
+    <string name="footer_cus">الرصيــد:=</string>
+    <string name="footer_cus_null">لاتوجد عمـليات</string>
+    <string name="footer_filter">المجمــوع:=</string>
+    <string name="footer_in">لـــك:=</string>
+    <string name="footer_null">إضغط على علامة (+) لإضافة مبلغ</string>
+    <string name="footer_out">عليــــك:=</string>
+    <string name="from_account">من حساب</string>
+    <string name="from_cus_name">من حســاب</string>
+    <string name="gcm_defaultSenderId">91144544143</string>
+    <string name="go_to_list">الذهاب إلى</string>
+    <string name="google_api_key">AIzaSyAJk0aJRoHBgGIL460OR0Az6eaF7f8ByAY</string>
+    <string name="google_app_id">1:91144544143:android:b6ebed624b56448a</string>
+    <string name="google_crash_reporting_api_key">AIzaSyAJk0aJRoHBgGIL460OR0Az6eaF7f8ByAY</string>
+    <string name="google_drive_backup">يتم أخذ نسخة احتياطية...يرجي الإنتظار...</string>
+    <string name="google_drive_conn">جاري الإتصال بجوجل درايف</string>
+    <string name="google_drive_delete">تم حذف الملف#</string>
+    <string name="google_drive_download">يرجي الإنتظار.....</string>
+    <string name="google_drive_folder">اسم المجلد في جوجل درايف</string>
+    <string name="google_drive_list">يرجي الإنتظار....</string>
+    <string name="google_drive_share">جوجل درايف</string>
+    <string name="google_drive_title">النسخ الإحتياطي مع جوجل درايف</string>
+    <string name="google_storage_bucket">dafar-app.appspot.com</string>
+    <string name="group">التصنيف</string>
+    <string name="help_bd_1">"بالإضافة إلى سهولة الاستخدام, يوفر لك هذا البرنامج : 
+ 1- متابعة المبالغ الدائنة والمدينة. 
+ 2- إنجازالحسابات التجميعية آلياً. 
+ 3- مشاركة الحسابات عبر البلوتوث أو مواقع التواصل الإجتماعي. 
+ 4- دالة بحث/ترتيب تُمَكنك من الوصول السهل والسريع. 
+ 5- خاصية التصدير والإستيراد لقاعدة البيانات. 
+
+
+ لا يوجد إعدادات لدفتر الحسابات. ما عليك سوى النقر على زر إضافة مبلغ لزبون أسفل الشاشة."</string>
+    <string name="help_bd_2">"يمكنك ذلك بطريقتين: 
+ 1- بالنقر على زر إنشاء عملية لزبون أسفل الشاشة: 
+ ستظهر لك صفحة إضافة عملية : 
+ قم بإدخال إسم الزبون(اذا كان جديدا) أو باختيار الإسم من القائمة التي ستظهر بعد طباعة أول حرف من إسم الزبون. 
+ يمكنك أيضا تحديد تاريخ العملية بالنقر على التاريخ والذي يحتوي على تاريخ اليوم كقيمة افتراضية. 
+ بعد النقر على زر حفظ ،سيظهر لك السجل المضاف حيث يمكنك النقر مطولاً ،ليظهر لك زر التعديل والحذف. 
+ 2- بالنقر على زر الإضافة الموجود بجانب الإسم في القائمة الرئيسية. 
+"</string>
+    <string name="help_bd_3">"تمكنك هذه الخاصية من مسح كل السجلات العمليات المسجلة لزبون وتجميعها في عملية واحدة تحتوي الرصيد النهائي. 
+ انقر على إسم الزبون في القائمة الرئيسية. وفي صفحة التفاصيل انقر على زر الاعدادت ثم على خيار إغلاق الرصيد."</string>
+    <string name="help_bd_4">"يحتوي دفتر الحسابات على مجموعة من التقارير توفر عليك الجهد والوقت. 
+ يمكنك الوصول الى التقارير بالنقر على زر الإعدادات في الصفحة الرئيسية."</string>
+    <string name="help_bd_5">يمكنك البحث عن (كلمة, تاريخ, مبلغ) أو جزء من ذلك. يمكنك توظيف خاصية البحث لعمل مرشح للبيانات, فمثلاًيمكنك الحصول على عمليات شهر فبراير فقط بادخال النص 2016-02 في خانة البحث.</string>
+    <string name="help_bd_6">تمكنك هذه الخاصية من إعادة عرض البيانات بالترتيب المرغوب وذلك بالنقر على إسم العمود. وسيكون في نقرة ترتيب تصاعديا وفي أخرى ترتيب تنازليا.</string>
+    <string name="help_hdr_1">"مرحباً بك مع برنامج دفتر الحسابات 
+
+ دقة , سهولة , أمان 
+
+"</string>
+    <string name="help_hdr_2">إضافة عملية:</string>
+    <string name="help_hdr_3">إغلاق الحساب:</string>
+    <string name="help_hdr_4">التقارير:</string>
+    <string name="help_hdr_5">خاصية البحث:</string>
+    <string name="help_hdr_6">خاصية الترتيب:</string>
+    <string name="help_title">عن البــرنــامج</string>
+    <string name="hide_bottom_view_on_scroll_behavior">android.support.design.behavior.HideBottomViewOnScrollBehavior</string>
+    <string name="hide_tr">إخفــاء</string>
+    <string name="hint_check">عدم إظهار هذه الرسالة مرة أخرى</string>
+    <string name="hint_curr_desc">يمكنك عرض العملات بالمسح على الشاشة من الأعلى إلى الأسفل</string>
+    <string name="hint_curr_header">عرض جميع العملات</string>
+    <string name="hint_desc">يمكنك عرض جميع الحسابات بالمسح على الشاشة يمينا وشمالا</string>
+    <string name="hint_filename_unadorned">إكتب إسم الملف</string>
+    <string name="hint_header">عرض جميع الحسابات</string>
+    <string name="imei">الرقم التسلسلي</string>
+    <string name="imei_code">أدخل رمز التفعيــل</string>
+    <string name="imei_msg">تفعيــل الإستــخدام</string>
+    <string name="imei_request">"تواصل معنا على البريد الالكتروني 
+ engmogh@gmail.com"</string>
+    <string name="imgdesc">imgdesc</string>
+    <string name="ip_msg">لإستعراض بياناتك من أي جهاز كمبيوتر أو محمول ضمن الشبكة. إكتب العنوان التالي في المتصفح</string>
+    <string name="ip_warin">*** سيتم وقف المشاركة إذا تم إغلاق هذه الشاشة ***</string>
+    <string name="liciense_msg">غير مسموح بالإستخدام-يرجي التواصل مع 700990810</string>
+    <string name="menu_add">Add</string>
+    <string name="menu_delete">حذف</string>
+    <string name="menu_edit">تعديل</string>
+    <string name="menu_move">تغيير الصنف</string>
+    <string name="menu_move_curr">نقل إلى حساب آخر</string>
+    <string name="menu_rate">Rate</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_share">مشاركة</string>
+    <string name="merge_cus_name">نقل إلى حساب</string>
+    <string name="month">الشهـــر</string>
+    <string name="move_inserted">تم إدخال العملية</string>
+    <string name="mtrl_chip_close_icon_content_description">Remove %1$s</string>
+    <string name="net_total">الـرصيـد الإجمـــالي</string>
+    <string name="net_total1">الرصيـد الإجمـالي - لـــه</string>
+    <string name="net_total1_sms">الإجمـالي - لــك</string>
+    <string name="net_total2">الرصيـد الإجمـالي - عليــه</string>
+    <string name="net_total2_sms">الإجمـالي - عليــك</string>
+    <string name="new_password">كلمة السر الجديدة</string>
+    <string name="no_copies">عدد النسخ المرفوعة :</string>
+    <string name="no_internet">تأكد من إتصالك بالإنترنت</string>
+    <string name="no_pdf">قم بتحميل برنامج الPDF من المتجر</string>
+    <string name="no_speed_internet">تأكد من سرعة الإنترنت</string>
+    <string name="old_password">كلمة السر القديمة</string>
+    <string name="password_toggle_content_description">Show password</string>
+    <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
+    <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_eye_mask_visible">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
+    <string name="path_password_strike_through">M3.27,4.27 L19.74,20.74</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."</string>
+    <string name="permission_read_phone_state_rationale">Read Phose State</string>
+    <string name="permission_write_storage_state_rationale">WRITE_EXTERNAL_STORAGE</string>
+    <string name="permissions_not_granted_read_phone_state">Permission read phone state not granted</string>
+    <string name="permissions_not_granted_send_sms">Permission send sms not granted</string>
+    <string name="permissions_not_granted_write_contacts">Permission read write contacts not granted</string>
+    <string name="permissions_not_granted_write_storage">Permission read write storage not granted</string>
+    <string name="pref_account_print_summary">إضافة ملاحظة أسفل الكشف</string>
+    <string name="pref_activation">تفعيل النسخة التجارية</string>
+    <string name="pref_address">العنوان</string>
+    <string name="pref_address_en">Address</string>
+    <string name="pref_address_summary">العنوان</string>
+    <string name="pref_ads">خيارات الإعلانات</string>
+    <string name="pref_ads_screen">إخفاء الإعلانات</string>
+    <string name="pref_ads_screen_summary">إخفاء الإعلانات</string>
+    <string name="pref_autoNotify_screen_summary">إظهار الإشعار عند إضافة مبلغ</string>
+    <string name="pref_autoSMS_screen_summary">إرسال رسالة تلقائيا عند إضافة مبلغ</string>
+    <string name="pref_autobackup_screen">حفظ البيانات يوميا</string>
+    <string name="pref_autobackup_screen_summary">حفظ البيانات تلقائيا مرة واحدة باليوم(بشرط تغيرت البيانات)</string>
+    <string name="pref_backup">خيارات حفظ البيانات</string>
+    <string name="pref_backup_path">مجلد حفظ البيانات</string>
+    <string name="pref_backup_time">وقت حفظ البيانات</string>
+    <string name="pref_blank_lines">عدد الأسطر الفارغة</string>
+    <string name="pref_blank_lines_summary">عدد الأسطر أعلى الصفحة</string>
+    <string name="pref_browse_ip">إستعراض البيانات من الكمبيوتر</string>
+    <string name="pref_bulk_sms">API_URL</string>
+    <string name="pref_close_balance">الإغلاق السنوي للحسابات</string>
+    <string name="pref_code">كود التفعيل</string>
+    <string name="pref_code_summary">أدخل كود التفعيل</string>
+    <string name="pref_credit_summary">دائن</string>
+    <string name="pref_curr">العمـلات</string>
+    <string name="pref_curr_list">قائمة العملات</string>
+    <string name="pref_debit_summary">مدين</string>
+    <string name="pref_default_backup_time">0</string>
+    <string name="pref_default_display_name">الإسم</string>
+    <string name="pref_default_display_name2" />
+    <string name="pref_default_password" />
+    <string name="pref_description_social_recommendations">Recommendations for people to contact based on your message history</string>
+    <string name="pref_drive_autoNotify_screen_summary">التنبيه للحفظ في جوجل درايف</string>
+    <string name="pref_email">الإيميل</string>
+    <string name="pref_email_summary">لإرسال النسخة الاحتياطية</string>
+    <string name="pref_group_curr">التصنيفات</string>
+    <string name="pref_group_curr_list">قاتمة التصنيفات</string>
+    <string name="pref_header_data_sync">خيارات الطباعة</string>
+    <string name="pref_header_general">البيانات الشخصية</string>
+    <string name="pref_header_notifications">Notifications</string>
+    <string name="pref_language">اللغة</string>
+    <string name="pref_log">تغيير الشعار</string>
+    <string name="pref_log_summary">تغيير الشعار الخاص بك</string>
+    <string name="pref_login_screen">تفعيل كلمة السر</string>
+    <string name="pref_login_screen_summary">طلب كلمة السر عند الدخول</string>
+    <string name="pref_other_option_currency_summary">إظهار العملات</string>
+    <string name="pref_other_option_currency_title">إظهار العملات</string>
+    <string name="pref_other_option_transfer_summary">إظهار أيقونة التحويل في الشاشة الرئيسية</string>
+    <string name="pref_other_option_transfer_title">بدلا عن أيقونة المساعدة</string>
+    <string name="pref_other_option_whats_bus_title">استخدام واتساب للأعمال</string>
+    <string name="pref_other_option_whats_summary">إرسال كشف الحساب عبر الواتس</string>
+    <string name="pref_other_option_whats_title">بدلا عن أيقونة الرسائل النصية</string>
+    <string name="pref_other_options">خيارات أخرى</string>
+    <string name="pref_password">كلمة السر</string>
+    <string name="pref_password_summary">******</string>
+    <string name="pref_phone">رقم التلفون</string>
+    <string name="pref_phone_summary">التلفون</string>
+    <string name="pref_print_date_profile">إظهار التاريخ</string>
+    <string name="pref_print_date_summary">إظهار التاريخ أسفل الطباعة</string>
+    <string name="pref_print_pdf_summary">برنامج الجهاز</string>
+    <string name="pref_print_setting">خيارات الطباعة</string>
+    <string name="pref_print_sort_summary">من التاريخ الأقدم للأحدث</string>
+    <string name="pref_print_sort_title">طباعة البيانات تصاعديا</string>
+    <string name="pref_print_user_profile">إظهار البيانات</string>
+    <string name="pref_print_user_profile_summary">طباعة البيانات الشخصية</string>
+    <string name="pref_ringtone_silent">Silent</string>
+    <string name="pref_security">خيارات الأمان</string>
+    <string name="pref_sms_summary">عنوان الرسالة النصية</string>
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="pref_user_name">الإسم</string>
+    <string name="pref_user_name_en">Name</string>
+    <string name="pref_user_name_summary">الإسم</string>
+    <string name="pref_user_profile">البيانات الشخصية</string>
+    <string name="project_id">dafar-app</string>
+    <string name="prompt_email">Email</string>
+    <string name="pw_min">كلمة السر لا تقل عن 4 أرقام</string>
+    <string name="radio1">لــــه</string>
+    <string name="radio2">عليـــه</string>
+    <string name="resourceID_Cancel">إلغـاء</string>
+    <string name="resourceID_OK">موافق</string>
+    <string name="resourceID_Title">إختــر الملف</string>
+    <string name="resourceID_Title2">إختــر المجلد</string>
+    <string name="restore_confirm">هل تريد إسترجاع النسخة</string>
+    <string name="s1">Save image</string>
+    <string name="s2">Allow Ad to store image in Picture gallery?</string>
+    <string name="s3">Accept</string>
+    <string name="s4">Decline</string>
+    <string name="s5">Create calendar event</string>
+    <string name="s6">Allow Ad to create a calendar event?</string>
+    <string name="s7">Test Ad</string>
+    <string name="search">بحث</string>
+    <string name="search_hint">Search</string>
+    <string name="search_menu_title">Search</string>
+    <string name="seed">a.19242</string>
+    <string name="setting_title">إعدادات</string>
+    <string name="settings_pwd_equal">كلمة السر القديمة صحيحة</string>
+    <string name="settings_pwd_not_equal">كلمة السر القديمة غير صحيحة</string>
+    <string name="share">مشاركة</string>
+    <string name="share_content">https://play.google.com/store/apps/details?id=com.valdio.valdioveliu.recyclerview</string>
+    <string name="share_imei">إرسل رقم الجهاز لفريق البرنامج ،بالضغط على أيقونة المشاركة</string>
+    <string name="share_tr">إشـعـار</string>
+    <string name="share_using">إرسال بواسطة</string>
+    <string name="sms_header">رصيدك الحالي هو :</string>
+    <string name="sort_1">ترتيب حسب المبلغ</string>
+    <string name="sort_2">ترتيب حسب نوع العملية</string>
+    <string name="sort_3">ترتيب حسب التاريخ</string>
+    <string name="sort_rep_1">ترتيب حسب المبلغ</string>
+    <string name="sort_rep_2">حسب نوع المبلغ</string>
+    <string name="sort_rep_3">ترتيب حسب الأيام#</string>
+    <string name="sql_error">SQL Error</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stop">وقف المشاركة</string>
+    <string name="sum">المجموع</string>
+    <string name="t_date_hdr">إلـى تـــاريــخ</string>
+    <string name="tag_fragment_FileSave">حفظ الملف</string>
+    <string name="take_backup">إضغط هنا ..لأخذ نسخة احتياطية</string>
+    <string name="test">" test 
+ "<img src="add"></img>" 
+ "<b><a href="http://android-coding.blogspot.com">Android Coding</a></b>" "</string>
+    <string name="title_activity_login">دخـول</string>
+    <string name="title_activity_search_results">Results</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_user_setting2">إعدادات</string>
+    <string name="title_fingerprint">* يمكنك وضع أصبعك في مكان البصمة للدخول</string>
+    <string name="to_cus_name">إلى حسـاب</string>
+    <string name="tot_radio1">لــــه :-</string>
+    <string name="tot_radio2">عليـــه:-</string>
+    <string name="total">إجمالي العمليات</string>
+    <string name="total_det">إجمالي العمليات</string>
+    <string name="tr_amount">المبلـغ</string>
+    <string name="tr_amount2">المبـــلغ :-</string>
+    <string name="tr_bal">الرصيــد</string>
+    <string name="tr_curr_name">العـمـلة</string>
+    <string name="tr_date">الـتــاريخ</string>
+    <string name="tr_date2">الـتــاريخ :-</string>
+    <string name="tr_days">عدد_الأيام</string>
+    <string name="tr_notify_title">إشعار بالمبلغ</string>
+    <string name="tr_remarks">التفاصيــل</string>
+    <string name="tr_remarks2">التفاصيـــل :-</string>
+    <string name="tr_size">الحجم</string>
+    <string name="tr_time">الوقـت</string>
+    <string name="validation_add_cus">إضـافة الإسـم#</string>
+    <string name="validation_add_group">إضافة تصنيف</string>
+    <string name="validation_msg">خطــأ في الإدخال</string>
+    <string name="view_image">إستعراض الصورة</string>
+    <string name="wait">يرجي الإنتظار...</string>
+    <string name="whatsapp">واتساب</string>
+    <string name="yearly_closing_balance">الإغلاق السنوي للحسابات</string>
+    <string name="yearly_closing_balance_msg">سيتم حذف جميع تفاصيل الحسابات قبل هذا التاريخ وفتح أرصدة إفتتاحية لها بتاريخ</string>
+</resources>

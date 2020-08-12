@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:id="@id/cus_det" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="end" android:orientation="vertical" android:id="@id/edit_cus_interface" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="100.0" android:layout_below="@id/searchButton" android:layout_alignParentRight="true">
+        <View android:id="@id/primerdivisor_1" android:background="@color/bk_color2" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_below="@id/directoryView" />
+        <LinearLayout android:orientation="vertical" android:id="@id/edit_cus_list_det" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="90.0" android:layout_below="@id/edit_cus_header" android:layout_alignParentRight="true">
+            <ListView android:id="@id/directoryView" android:layout_width="fill_parent" android:layout_height="0.0dip" android:drawSelectorOnTop="false" android:layout_weight="90.0" />
+        </LinearLayout>
+        <View android:id="@id/primerdivisor_2" android:background="@color/bk_color2" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_below="@id/directoryView" />
+        <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:id="@id/edit_cus_interface3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="5.0" android:layout_below="@id/edit_cus_list_det">
+            <TextView android:textSize="16.0dip" android:gravity="start" android:id="@id/selectedPath" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="5.0" />
+        </LinearLayout>
+        <View android:id="@id/primerdivisor_3" android:background="@color/bk_color2" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_below="@id/directoryView" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/edit_cus_interface4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="5.0" android:layout_below="@id/edit_cus_list_det">
+            <TextView android:gravity="start" android:id="@id/default_ext" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <EditText android:gravity="end" android:id="@id/selectedFile" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/hint_filename_unadorned" android:singleLine="true" />
+        </LinearLayout>
+        <View android:id="@id/primerdivisor_4" android:background="@color/bk_color2" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_below="@id/directoryView" />
+    </LinearLayout>
+    <android.support.design.widget.FloatingActionButton android:layout_gravity="end|center|top" android:id="@id/fab" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@android:drawable/ic_menu_sort_alphabetically" app:backgroundTint="@color/colorPrimary" app:fabSize="mini" />
+</android.support.design.widget.CoordinatorLayout>

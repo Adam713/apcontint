@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:id="@id/cus_det" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="end" android:orientation="vertical" android:id="@id/edit_cus_interface" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="100.0" android:layout_below="@id/searchButton" android:layout_alignParentRight="true">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/edit_cus_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="2.0">
+            <include android:id="@id/report_hdr" layout="@layout/group_item" />
+            <View android:id="@id/primerdivisor_1" android:background="@color/bk_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/report_hdr" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/edit_cus_list_det" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="90.0" android:layout_below="@id/edit_cus_header" android:layout_alignParentRight="true">
+            <ListView android:id="@id/list_data" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" />
+            <TextView android:textSize="18.0dip" android:textColor="#ff536fd2" android:textColorHighlight="#ffffffff" android:layout_gravity="center_horizontal" android:id="@id/emptyResults" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/empty_list" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/edit_cus_interface3" android:background="@color/bk_color" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="8.0" android:layout_below="@id/edit_cus_list_det">
+            <ImageView android:gravity="center_horizontal" android:id="@id/img_add_amount" android:clickable="false" android:duplicateParentState="false" android:layout_width="100.0dip" android:layout_height="fill_parent" android:src="@android:drawable/ic_menu_add" android:onClick="amount_add_btn" />
+        </LinearLayout>
+    </LinearLayout>
+    <android.support.design.widget.FloatingActionButton android:layout_gravity="end|center|top" android:id="@id/fab" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@android:drawable/ic_menu_sort_alphabetically" app:backgroundTint="@color/colorPrimary" app:fabSize="mini" />
+</android.support.design.widget.CoordinatorLayout>

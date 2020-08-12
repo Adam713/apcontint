@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="8.0dip" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="110.0" android:layout_alignParentRight="true">
+        <ImageView android:id="@id/img" android:clickable="false" android:duplicateParentState="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="10.0" />
+        <TextView android:id="@id/tr_id" android:visibility="invisible" android:layout_width="5.0dip" android:layout_height="5.0dip" android:text="TR_ID" android:layout_toRightOf="@id/img" android:layout_alignParentTop="true" />
+        <TextView android:textSize="15.0sp" android:textStyle="bold" android:gravity="center" android:id="@id/tr_remarks" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/tr_remarks" android:layout_weight="28.0" />
+        <TextView android:gravity="center" android:id="@id/tr_amount" android:paddingRight="5.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/tr_amount" android:layout_weight="20.0" />
+        <TextView android:gravity="center" android:id="@id/tr_name" android:paddingRight="5.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/cus_name" android:layout_weight="23.0" />
+        <TextView android:gravity="center" android:id="@id/tr_date" android:paddingRight="2.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/tr_date" android:layout_weight="29.0" />
+    </LinearLayout>
+</LinearLayout>

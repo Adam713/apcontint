@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout android:id="@id/drawer_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/frame_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/edit_cus_interface_containter" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="100.0">
+            <android.support.design.widget.AppBarLayout android:theme="@style/AppTheme.AppBarOverlay" android:id="@id/toolbar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <android.support.v7.widget.Toolbar android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/toolbar2" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:popupTheme="@style/AppTheme.PopupOverlay" />
+            </android.support.design.widget.AppBarLayout>
+            <include layout="@layout/customer_det_pager" />
+        </LinearLayout>
+    </FrameLayout>
+    <ListView android:layout_gravity="start" android:id="@id/slider_list" android:background="#ffffffff" android:layout_width="300.0dip" android:layout_height="fill_parent" android:divider="@android:color/transparent" android:dividerHeight="0.0dip" android:choiceMode="singleChoice" />
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bk_color">#ff335ab8</color>
+    <color name="bk_color2">#ffa8cef4</color>
+    <color name="colorAccent">#ffff4081</color>
+    <color name="colorPrimary">#ff3f51b5</color>
+    <color name="colorPrimaryDark">#ff303f9f</color>
+    <color name="common_action_bar_splitter">#ffd2d2d2</color>
+    <color name="errorText">#ffff7878</color>
+    <color name="green">#ff008000</color>
+    <color name="red">#ffff0000</color>
+</resources>

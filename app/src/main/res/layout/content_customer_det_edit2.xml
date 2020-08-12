@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/edit_cus_interface" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <LinearLayout android:orientation="horizontal" android:id="@id/edit_cus_interface2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+            <EditText android:gravity="center_horizontal" android:id="@id/edit_tr_amount" android:layout_width="90.0dip" android:layout_height="wrap_content" android:hint="@string/tr_amount" android:singleLine="true" android:inputType="number" />
+            <AutoCompleteTextView android:gravity="center_horizontal" android:id="@id/cus_name_det" android:nextFocusLeft="@id/edit_tr_amount" android:nextFocusRight="@id/edit_tr_amount" android:nextFocusUp="@id/edit_tr_amount" android:nextFocusDown="@id/edit_tr_amount" android:layout_width="270.0dip" android:layout_height="wrap_content" android:hint="@string/cus_name" android:singleLine="true" android:imeOptions="actionNext" android:nextFocusForward="@id/edit_tr_amount">
+                <requestFocus />
+            </AutoCompleteTextView>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/edit_cus_interface3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+            <TextView android:gravity="center" android:layout_gravity="end" android:id="@id/edit_tr_date" android:layout_width="100.0dip" android:layout_height="35.0dip" android:hint="@string/tr_date" android:editable="false" android:inputType="date" />
+            <RadioGroup android:gravity="center" android:layout_gravity="end" android:orientation="horizontal" android:id="@id/radiogroup1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <RadioButton android:id="@id/radiobutton1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/radio1" />
+                <RadioButton android:id="@id/radiobutton2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/radio2" />
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/edit_cus_interface4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+            <Button android:layout_gravity="start" android:id="@id/btn_cus_det_edit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_add" android:layout_below="@id/edit_cus_gsm" android:layout_alignParentLeft="true" android:onClick="btn_cus_save" />
+            <EditText android:gravity="center_horizontal" android:layout_gravity="end" android:id="@id/edit_tr_remarks" android:layout_width="250.0dip" android:layout_height="wrap_content" android:hint="@string/tr_remarks" android:singleLine="true" />
+        </LinearLayout>
+        <View android:id="@id/primerdivisor" android:background="@android:color/darker_gray" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+    </LinearLayout>
+    <ListView android:id="@id/list_cus_det_edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawSelectorOnTop="false" android:layout_below="@id/edit_cus_interface" />
+</RelativeLayout>
